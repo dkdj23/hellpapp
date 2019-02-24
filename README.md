@@ -34,7 +34,11 @@ yarn add next react react-dom
 }
 ```
 
-# yarn dev 실행 후  localhost:3000 열어보면  pages/index.js  가 열리는 것을 볼 수 있다.
+# 실행
+```
+yarn dev
+```
+yarn dev 실행 후  localhost:3000 열어보면  pages/index.js  가 열리는 것을 볼 수 있다.
 
 # docker 사용
 ```
