@@ -39,6 +39,7 @@ yarn add next react react-dom
 yarn dev
 ```
 yarn dev 실행 후  localhost:3000 열어보면  pages/index.js  가 열리는 것을 볼 수 있다.
+>> next.js 를 통해 만들어진 서버에 대한 파일은 어디에 있으며 포트를 바꾸려면??
 
 # docker 사용
 ```
@@ -46,6 +47,10 @@ docker run -d -p 3000:8080 tomcat
 docker rm prune - Remove all stopped containers
 docker rm - Remove one or more containers
 ```
+
+# docker build
+Dockerfile 생성
+
 
 
 When it run in Docker container, it is better to provide configuration via
