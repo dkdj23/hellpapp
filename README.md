@@ -23,20 +23,18 @@ yarn add next react react-dom
 ```
 
 
-#Edit package.json file
+#Add a script to package.json file
 ```
-  title: string             // SMTV website title
-  host: string              // SMTV website host
-  backendRepos: Array<{
-    type: string            // Host type of backend git repository. `GITLAB` | `GITHUB`
-    cloneUrl: string        // Clone url of backend git repository
-    publicUrl: string       // Web host url of backend git repository
-    docDirectory: string    // Directory name where the Markdown documents are located.
-                            // Default: `show-me-the-video`
-    title: string           // Video clip's title
-    managerId: string       // Admin id of backend git repository host site
-  }>
+{
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  }
+}
 ```
+
+# 
 
 When it run in Docker container, it is better to provide configuration via
 `APPLICATION_CONFIG` environment variables rather than copying
