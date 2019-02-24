@@ -16,13 +16,14 @@ hellpapp is the project for tuturing.
 
 # Install next, react, react-dom
 
+package.json 파일에 dependencies 정보를 저장함
 ```
 yarn -init -y
 yarn add next react react-dom
 ```
 
 
-Description:
+#Edit package.json file
 ```
   title: string             // SMTV website title
   host: string              // SMTV website host
