@@ -14,28 +14,13 @@ hellpapp is the project for tuturing.
 
 # Usage
 
-## Create your `application.yaml` file on project root path
+# Install next, react, react-dom
 
-Example:
 ```
-# application.yml
-title: smtv example youtube
-host: smtv.aluc.io
-youtubeAPIKey: AIxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxFg
-backendRepos:
-  - type: GITHUB
-    cloneUrl: https://github.com/aluc-io/show-me-the-video-example.git
-    publicUrl: https://github.com/aluc-io/show-me-the-video-example
-    docDirectory: show-me-the-video
-    title: IntelliJ IDEA Guide
-    managerId: alfreduc23
-  - type: GITHUB
-    cloneUrl: https://github.com/aluc-io/show-me-the-video-example.git
-    publicUrl: https://github.com/aluc-io/show-me-the-video-example
-    docDirectory: show-me-the-video-youtube
-    title: Eclipse Guide
-    managerId: alfreduc23
+yarn -init -y
+yarn add next react react-dom
 ```
+
 
 Description:
 ```
