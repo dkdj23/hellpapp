@@ -148,6 +148,8 @@ yarn add mongoose
 yarn add faker
 yarn add body-parser
 yarn add morgan
+
+curl -H "content-type: application-json" -X POST localhost:9090/user -d '{"name":"jinho","email":"aaa@test.com"}'
 ```
 
 ## License
