@@ -96,6 +96,41 @@ ocker run --link eager_jennings:mongo -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMIN
 ```
 localhost:8081 접속하면 GUI mongodb 를 사용할 수 있다.
 
+# docker-compose
+docker-compose 로 여러 컨테이너를 띄울 수 있다.
+
+```
+ Use root/example as user/password credentials
+  1 version: '3.1'
+  2
+  3 services:
+  4
+  5   mongo:
+  6     image: mongo
+  7     restart: always
+  8     ports:
+  9       - 27017:27017
+ 10     environment:
+ 11       MONGO_INITDB_ROOT_USERNAME: root
+ 12       MONGO_INITDB_ROOT_PASSWORD: example
+ 13
+ 14   mongo-express:
+ 15     image: mongo-express
+ 16     restart: always
+ 17     ports:
+ 18       - 8081:8081
+ 19     environment:
+ 20       ME_CONFIG_MONGODB_ADMINUSERNAME: root
+ 21       ME_CONFIG_MONGODB_ADMINPASSWORD: example
+ ```
+```
+docker compose up -d
+docker compose ls
+docker-copose logs -f 서비스명(ex mongo)
+docker-compose exec mongo /bin/bash
+```
+
+
 ## License
 Released under The MIT License.
 
