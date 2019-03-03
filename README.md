@@ -14,6 +14,13 @@ hellpapp is the project for tuturing.
 
 # Usage
 
+#ansible 
+디렉토리 하나 생성 후 clone 받고 README.md 참고하여 execute 한다.
+error 발생시 mac preference>sharing>원격로그인 활성화 할 것
+
+https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/ansible-for-macos  
+
+
 # Install next, react, react-dom
 
 package.json 파일에 dependencies 정보를 저장함
