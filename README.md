@@ -68,6 +68,16 @@ docker tag mytest:v2 duke8612/carpoola:t1
 docker push duke8612/carpoola:t1
 ```
 
+# mongo DB 사용
+```
+docker run --env MONGO_INITDB_ROOT_USERNAME=root --env MONGO_INITDB_ROOT_PASSWORD=example -d -p27017:27017 mongo
+docker exec -it gifted_shtern /bin/bash(/bin/sh)
+mongo -u root -p example
+show dbs;
+```
+
+
+
 ## License
 Released under The MIT License.
 
