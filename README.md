@@ -130,6 +130,13 @@ docker-compose logs -f 서비스명(ex mongo)
 docker-compose exec mongo /bin/bash
 ```
 
+json 형태로 볼때 쓰는건가,,?
+npx 붙이면 node_modules 안 bin 에서 명령 찾아줌?
+```
+yarn add js-yaml
+npx js-yaml docker-compose.yml
+```
+
 
 ## License
 Released under The MIT License.
