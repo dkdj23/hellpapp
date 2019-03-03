@@ -89,6 +89,11 @@ show dbs;
 ```
 docker hub mongo <<  이런식으로 google 검색하면 docker hub 에서 사용법까지 다 나와있으므로 참고할 것!
 
+# mongo-express
+```
+ocker run --link eager_jennings:mongo -d -p 8081:8081 -e ME_CONFIG_MONGODB_ADMINUSERNAME=root -e ME_CONFIG_MONGODB_ADMINPASSWORD=example mongo-express
+```
+localhost:8081 접속하면 GUI mongodb 를 사용할 수 있다.
 
 ## License
 Released under The MIT License.
