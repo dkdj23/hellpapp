@@ -18,6 +18,7 @@ hellpapp is the project for tuturing.
 
 1. 디렉토리 하나 생성 후 clone 받고 README.md 참고하여 execute 한다.
 2. error 발생시 mac preference>sharing>원격로그인 활성화 할 것
+3. iterm2  command+, 설정->profile->command '/bin/zsh' 로 변경
 
 https://github.com/b6pzeusbc54tvhw5jgpyw8pwz2x6gs/ansible-for-macos  
 ```
