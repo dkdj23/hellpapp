@@ -124,9 +124,9 @@ docker-compose 로 여러 컨테이너를 띄울 수 있다.
  21       ME_CONFIG_MONGODB_ADMINPASSWORD: example
  ```
 ```
-docker compose up -d
-docker compose ls
-docker-copose logs -f 서비스명(ex mongo)
+docker-compose up -d
+docker-compose ps
+docker-compose logs -f 서비스명(ex mongo)
 docker-compose exec mongo /bin/bash
 ```
 
