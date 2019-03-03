@@ -140,7 +140,14 @@ npx js-yaml docker-compose.yml
 # express.js
 
 ```
+mkdir test-express
+cd test-express
+yarn init
 yarn add express
+yarn add mongoose
+yarn add faker
+yarn add body-parser
+yarn add morgan
 ```
 
 ## License
