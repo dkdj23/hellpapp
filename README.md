@@ -150,9 +150,23 @@ yarn add mongoose
 yarn add faker
 yarn add body-parser
 yarn add morgan
-
-curl -H "content-type: application-json" -X POST localhost:9090/user -d '{"name":"jinho","email":"aaa@test.com"}'
 ```
+test code:
+curl -H "content-type: application-json" -X POST localhost:9090/user -d '{"name":"jinho","email":"aaa@test.com"}'
+
+# nodemon
+```
+yarn add nodemon --dev
+yarn install
+npx nodemon ./server.js
+```
+dev dependencies 를 제외한 prod 만 설치하고 싶을 때는
+export NODE_ENV=production
+env | rg NODE
+yarn install
+unset NODE_ENV (if you need)
+```
+
 
 ## License
 Released under The MIT License.
