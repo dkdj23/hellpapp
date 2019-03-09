@@ -81,6 +81,8 @@ docker tag mytest:v2 duke8612/carpoola:t1
 docker push duke8612/carpoola:t1
 ```
 
+ctop : container 
+
 # mongo DB 사용
 ```
 docker run --env MONGO_INITDB_ROOT_USERNAME=root --env MONGO_INITDB_ROOT_PASSWORD=example -d -p27017:27017 mongo
