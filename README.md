@@ -152,7 +152,9 @@ yarn add body-parser
 yarn add morgan
 ```
 test code:
-curl -H "content-type: application-json" -X POST localhost:9090/user -d '{"name":"jinho","email":"aaa@test.com"}'
+curl -H "Content-Type: application/json" -X POST localhost:9090/add -d '{"name":"jinho","email":"aaa@test.com"}'
+curl -H "Content-Type: application/json" -X POST localhost:9090/delete -d '{"name":"jinho"}'
+curl -H "Content-Type: application/json" -X POST localhost:9090/update -d '{"name":"jinho","email":"bbb@test.com"}'
 
 # nodemon
 ```
