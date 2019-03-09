@@ -160,12 +160,12 @@ yarn add nodemon --dev
 yarn install
 npx nodemon ./server.js
 ```
+
 dev dependencies 를 제외한 prod 만 설치하고 싶을 때는
 export NODE_ENV=production
 env | rg NODE
 yarn install
 unset NODE_ENV (if you need)
-```
 
 
 ## License
